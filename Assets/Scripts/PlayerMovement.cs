@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float climbSpeed = 2;
     [SerializeField] GameObject bullet;
     [SerializeField] Transform bulletSpawnPoint;
+    [SerializeField] AudioClip victorySound;
     
 
     Vector2 moveInput;
@@ -21,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     Animator playerAnimator;
     PlayerInput playerInput;
     bool isPlayerDead;
+    bool hasPlayerWon;
 
 
     void Start()
@@ -34,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
 
         isPlayerDead = false;
+        hasPlayerWon = false;
+
     }
 
     void Update()
@@ -43,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
         ClimbLadder();
         CheckIfAirborne();
         Die();
+        VictoryAnimation();
     }
 
     void OnMove(InputValue value)
@@ -153,6 +158,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    
+    void VictoryAnimation()
+    {
+
+        if (playerCollider2D.IsTouchingLayers(LayerMask.GetMask("Exit")) && !hasPlayerWon)
+        {
+            playerAnimator.SetTrigger("Victory");
+            AudioSource.PlayClipAtPoint(victorySound, gameObject.transform.position);
+            hasPlayerWon = true;
+        }
+    }
 
 }
