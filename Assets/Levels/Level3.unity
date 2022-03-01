@@ -9279,7 +9279,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7890870609550414567, guid: b3283fbfd4ce17a479e3c2c0658eff7e, type: 3}
       propertyPath: enemyMoveSpeed
-      value: 3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7890870609550414584, guid: b3283fbfd4ce17a479e3c2c0658eff7e, type: 3}
       propertyPath: m_RootOrder
