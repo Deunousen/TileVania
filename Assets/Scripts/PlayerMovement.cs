@@ -166,6 +166,7 @@ public class PlayerMovement : MonoBehaviour
             playerAnimator.SetTrigger("Victory");
             AudioSource.PlayClipAtPoint(victorySound, gameObject.transform.position);
             hasPlayerWon = true;
+            playerInput.enabled = false;
         }
     }
 

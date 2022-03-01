@@ -197,6 +197,7 @@ MonoBehaviour:
   climbSpeed: 2
   bullet: {fileID: 1353795200187673687, guid: 01aecf615ea306b41adc843c75633977, type: 3}
   bulletSpawnPoint: {fileID: 6783578050847760969}
+  victorySound: {fileID: 8300000, guid: 599e7901e4c7dd94eaeb56cd0ab9e039, type: 3}
 --- !u!114 &510837064
 MonoBehaviour:
   m_ObjectHideFlags: 0
