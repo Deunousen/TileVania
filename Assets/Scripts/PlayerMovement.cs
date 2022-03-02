@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform bulletSpawnPoint;
     [SerializeField] AudioClip victorySound;
+    [SerializeField] AudioClip deathSound;
     
 
     Vector2 moveInput;
@@ -132,9 +133,10 @@ public class PlayerMovement : MonoBehaviour
             playerInput.enabled = false;
 
             playerAnimator.SetTrigger("Death");
-            rb2d.velocity = new Vector2(80, 15);
+            AudioSource.PlayClipAtPoint(deathSound, gameObject.transform.position);
             playerCollider2D.enabled = false;
             playerLegsCollider2D.enabled = false;
+            rb2d.velocity = new Vector2(80, 15);
 
             StartCoroutine(FindObjectOfType<GameSession>().ProcessPlayerDeath());
         }
