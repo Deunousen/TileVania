@@ -5218,32 +5218,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1139273020 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2879687287485933283, guid: 0778b36424b3be84e915969e3e0bdf27, type: 3}
-  m_PrefabInstance: {fileID: 3430048393957229323}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1139273025
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139273020}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!4 &1241739920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 519458267619799655, guid: 03f773b1e2b4dcb4cbdfad00ead1e668, type: 3}
@@ -8382,38 +8356,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1659932396, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.43614274
-      objectReference: {fileID: 0}
-    - target: {fileID: 1659932396, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.8679661
-      objectReference: {fileID: 0}
-    - target: {fileID: 1659932396, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.9339623
-      objectReference: {fileID: 0}
-    - target: {fileID: 1659932396, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4285521390
-      objectReference: {fileID: 0}
-    - target: {fileID: 1802168852, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.5582948
-      objectReference: {fileID: 0}
-    - target: {fileID: 1802168852, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.5582948
-      objectReference: {fileID: 0}
-    - target: {fileID: 1802168852, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.9622642
-      objectReference: {fileID: 0}
-    - target: {fileID: 1802168852, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4287532789
-      objectReference: {fileID: 0}
     - target: {fileID: 2822740894606082409, guid: 24565752d05e1ce42a2b657a85d43302, type: 3}
       propertyPath: m_Name
       value: Game Session

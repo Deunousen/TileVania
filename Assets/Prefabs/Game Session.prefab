@@ -175,8 +175,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4285521390
+  m_fontColor: {r: 0.9339623, g: 0.8679661, b: 0.43614274, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -309,8 +309,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287532789
+  m_fontColor: {r: 0.9622642, g: 0.5582948, b: 0.5582948, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -414,5 +414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLives: 3
+  score: 0
   livesText: {fileID: 1802168852}
   scoreText: {fileID: 1659932396}

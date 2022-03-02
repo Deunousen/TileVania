@@ -8,6 +8,7 @@ TagManager:
   - Level Bounds
   - Coin
   - Bullet
+  - Exit
   layers:
   - Default
   - TransparentFX

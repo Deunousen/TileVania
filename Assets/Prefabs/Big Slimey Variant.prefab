@@ -7,6 +7,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.10065861
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.16319035
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.08775366
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411804164, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.10213693
+      objectReference: {fileID: 0}
     - target: {fileID: 6610440183269365005, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -65,7 +109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6610440183269365006, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
       propertyPath: m_Name
-      value: Slimey
+      value: Big Slimey Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6610440183269365010, guid: a5ce94035ffa6ff4ba65b7a0b4ef85d2, type: 3}
       propertyPath: enemyMoveSpeed

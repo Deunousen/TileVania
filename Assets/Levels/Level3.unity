@@ -30712,7 +30712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7890870609550414587, guid: b3283fbfd4ce17a479e3c2c0658eff7e, type: 3}
       propertyPath: m_Name
-      value: Slimey
+      value: Big Slimey
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3283fbfd4ce17a479e3c2c0658eff7e, type: 3}
